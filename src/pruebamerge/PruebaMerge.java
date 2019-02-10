@@ -16,6 +16,12 @@ public class PruebaMerge {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        Alumno alumno = new Alumno("Luis", 22);
+        
+        
+        
+        
     }
     
 }
