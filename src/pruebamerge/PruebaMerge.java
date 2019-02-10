@@ -19,6 +19,9 @@ public class PruebaMerge {
         
         Alumno alumno = new Alumno("Luis", 22);
         
+        if ("Luis".equals(alumno.getNombre())){
+            System.out.println("Luis es el dueño");
+        }
         
         
         
