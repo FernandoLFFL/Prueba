@@ -19,8 +19,13 @@ public class PruebaMerge {
         
         Alumno alumno = new Alumno("Luis", 22);
         
+        String dueño; 
+        String direccion; 
+        
         if ("Luis".equals(alumno.getNombre())){
             System.out.println("Luis es el dueño");
+            dueño=alumno.getNombre(); 
+            direccion="Av Nuevo Mexico # 410"; 
         }
         
         if (alumno.getEdad()>18){
