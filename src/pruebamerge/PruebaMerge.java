@@ -23,6 +23,9 @@ public class PruebaMerge {
             System.out.println("Luis es el dueño");
         }
         
+        if (alumno.getEdad()>18){
+            System.out.println("Es mayor de edad");
+        }
         
         
     }
